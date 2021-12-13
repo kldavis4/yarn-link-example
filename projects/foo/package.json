@@ -1,0 +1,7 @@
+{
+  "name": "foo",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@tinacms/graphql": "^0.58.2"
+  }
+}

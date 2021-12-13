@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "projects/foo"
+  ],
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "resolutions": {
+    "@tinacms/auth": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/auth",
+    "@tinacms/cli": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/cli",
+    "@tinacms/graphql": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/graphql",
+    "@tinacms/scripts": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/scripts",
+    "@tinacms/sharedctx": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/sharedctx",
+    "@tinacms/toolkit": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/toolkit",
+    "@tinacms/webpack-helpers": "portal:/Users/kldavis/projects/tinacms/packages/@tinacms/webpack-helpers",
+    "create-tina-app": "portal:/Users/kldavis/projects/tinacms/packages/create-tina-app",
+    "next-tinacms-cloudinary": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-cloudinary",
+    "next-tinacms-github": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-github",
+    "next-tinacms-json": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-json",
+    "next-tinacms-markdown": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-markdown",
+    "react-tinacms-editor": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-editor",
+    "react-tinacms-github": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-github",
+    "react-tinacms-inline": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-inline",
+    "react-tinacms-strapi": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-strapi",
+    "tinacms": "portal:/Users/kldavis/projects/tinacms/packages/tinacms",
+    "root": "portal:../tinacms"
+  }
+}
