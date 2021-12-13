@@ -1,4 +1,4 @@
-# Reproduction example for 
+# Reproduction example for [3873](https://github.com/yarnpkg/berry/issues/3873)
 
 ## Setup
 
